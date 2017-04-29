@@ -35,8 +35,7 @@ public class CodingBat {
         System.out.println(codingbathelper.sleepIn(true, false));
         System.out.println(codingbathelper.sleepIn(false, true));
         
-        //-----------------------------------------
-        
+        //-----------------------------------------        
         /*
             --- Exercise: "Warmup-1 > monkeyTrouble " ---            
             We have two monkeys, a and b, and the parameters aSmile and bSmile 
@@ -55,8 +54,7 @@ public class CodingBat {
         System.out.println(codingbathelper.monkeyTrouble(false, false));
         System.out.println(codingbathelper.monkeyTrouble(true, false));
         
-        //-----------------------------------------
-        
+        //-----------------------------------------        
         /*
             --- Exercise: "Warmup-1 > sumDouble" ---   
             Given two int values, return their sum. Unless the two values 
@@ -73,8 +71,7 @@ public class CodingBat {
         System.out.println(codingbathelper.sumDouble(3, 2));
         System.out.println(codingbathelper.sumDouble(2, 2));
         
-        //-----------------------------------------
-        
+        //-----------------------------------------        
         /*
             --- Exercise: "Warmup-1 > diff21" ---           
             Given an int n, return the absolute difference between n and 21, 
@@ -85,11 +82,59 @@ public class CodingBat {
             diff21(21) → 0
         */
         
-        System.out.println("*** Exercise: Warmup-1 > sumDouble ***");        
+        System.out.println("*** Exercise: Warmup-1 > diff21 ***");        
         System.out.println(codingbathelper.diff21(19));
         System.out.println(codingbathelper.diff21(10));
         System.out.println(codingbathelper.diff21(21));
         
+        //-----------------------------------------        
+        /*
+            --- Exercise: "Warmup-1 > parrotTrouble " ---                       
+            We have a loud talking parrot. The "hour" parameter is the current 
+            hour time in the range 0..23. We are in trouble if the parrot is 
+            talking and the hour is before 7 or after 20. Return true if we are 
+            in trouble.
+
+            parrotTrouble(true, 6) → true
+            parrotTrouble(true, 7) → false
+            parrotTrouble(false, 6) → false
+        */
+        
+        System.out.println("*** Exercise: Warmup-1 > parrotTrouble ***");        
+        System.out.println(codingbathelper.parrotTrouble(true, 6));
+        System.out.println(codingbathelper.parrotTrouble(true, 7));
+        System.out.println(codingbathelper.parrotTrouble(false, 6));
+        
+        //-----------------------------------------        
+        /*
+            --- Exercise: "Warmup-1 > makes10" ---      
+            Given 2 ints, a and b, return true if one if them is 10 or if 
+            their sum is 10.
+            makes10(9, 10) → true
+            makes10(9, 9) → false
+            makes10(1, 9) → true
+        */
+        
+        System.out.println("*** Exercise: Warmup-1 > parrotTrouble ***");        
+        System.out.println(codingbathelper.makes10(9, 10));
+        System.out.println(codingbathelper.makes10(9, 9));
+        System.out.println(codingbathelper.makes10(1, 9));
+        
+        //-----------------------------------------        
+        /*
+            --- Exercise: "Warmup-1 > nearHundred " ---      
+            Given an int n, return true if it is within 10 of 100 or 200. 
+            Note: Math.abs(num) computes the absolute value of a number.
+
+            nearHundred(93) → true
+            nearHundred(90) → true
+            nearHundred(89) → false
+        */
+        
+        System.out.println("*** Exercise: Warmup-1 > nearHundred ***");        
+        System.out.println(codingbathelper.nearHundred(93));
+        System.out.println(codingbathelper.nearHundred(90));
+        System.out.println(codingbathelper.nearHundred(89));
         
     }
     
