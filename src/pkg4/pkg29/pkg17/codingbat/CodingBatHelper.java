@@ -24,13 +24,17 @@ public class CodingBatHelper {
         return (aSmile == bSmile);
     }
     
-    public int sumDouble(int a, int b) {
-        
+    public int sumDouble(int a, int b) {        
         if (a==b)
             return (a+b)*2;
         
-        return a+b;
-        
+        return a+b;       
+    }
+    
+    public int diff21(int n) {        
+        if (n > 21)
+            return Math.abs((n-21)*2);
+        return Math.abs(n-21);
     }
 
     

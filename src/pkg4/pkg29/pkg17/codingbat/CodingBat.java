@@ -58,8 +58,7 @@ public class CodingBat {
         //-----------------------------------------
         
         /*
-            --- Exercise: "Warmup-1 > sumDouble" ---           
-            
+            --- Exercise: "Warmup-1 > sumDouble" ---   
             Given two int values, return their sum. Unless the two values 
             are the same, then return double their sum.
         
@@ -73,6 +72,23 @@ public class CodingBat {
         System.out.println(codingbathelper.sumDouble(1, 2));
         System.out.println(codingbathelper.sumDouble(3, 2));
         System.out.println(codingbathelper.sumDouble(2, 2));
+        
+        //-----------------------------------------
+        
+        /*
+            --- Exercise: "Warmup-1 > diff21" ---           
+            Given an int n, return the absolute difference between n and 21, 
+            except return double the absolute difference if n is over 21.
+
+            diff21(19) → 2
+            diff21(10) → 11
+            diff21(21) → 0
+        */
+        
+        System.out.println("*** Exercise: Warmup-1 > sumDouble ***");        
+        System.out.println(codingbathelper.diff21(19));
+        System.out.println(codingbathelper.diff21(10));
+        System.out.println(codingbathelper.diff21(21));
         
         
     }
